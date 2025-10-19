@@ -3,6 +3,12 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import styles from "../styles/NavBar.module.css";
 
+
+/**
+ * NavBar component for site navigation
+ * 
+ * @returns {JSX.Element}
+ */
 function NavBar() {
     return (
         <nav className={styles.navbar}>
