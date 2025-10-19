@@ -1,0 +1,80 @@
+.adminPortal {
+    padding: 2rem;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+}
+
+.leftColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.rightColumn {
+    background: var(--color-cream);
+    padding: 1rem;
+    border-radius: 12px;
+
+}
+
+.addBtn {
+    padding: 0.5rem 1rem;
+    background-color: var(--color-medium-roast);
+    color: var(--color-white);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.addBtn:hover {
+    background-color: var(--color-dark-coffee);
+}
+
+.editSection select {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid var(--color-medium-roast);
+    background-color: var(--color-white);
+    color: var(--color-dark-text);
+    outline: none;
+    transition: border 0.2s, box-shadow 0.2s;
+}
+
+.editSection select:focus {
+    border-color: var(--color-dark-coffee);
+    box-shadow: 0 0 4px rgba(75, 46, 46, 0.3);
+}
+
+.coffeeList ul {
+    list-style: none;
+    padding: 0;
+}
+
+.coffeeList li {
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--color-latte);
+}
+
+.leftColumn ul li {
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 6px;
+    transition: background 0.2s;
+}
+
+.leftColumn ul li:hover {
+    background-color: var(--color-latte);
+}
+
+.leftColumn ul li.selected {
+    background-color: var(--color-medium-roast);
+    color: var(--color-white);
+    font-weight: bold;
+}
