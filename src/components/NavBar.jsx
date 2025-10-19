@@ -10,6 +10,7 @@ import styles from "../styles/NavBar.module.css";
  * @returns {JSX.Element}
  */
 function NavBar() {
+    
     return (
         <nav className={styles.navbar}>
             <ul className={styles["nav-links"]}>

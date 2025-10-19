@@ -9,6 +9,8 @@ import styles from "../styles/Search.module.css";
  * @returns {JSX.Element}
  */
 function Search({ coffees, setFilteredCoffees }) {
+
+    // State to hold filter criteria
     const [filters, setFilters] = useState({
         name: "",
         origins: [],
@@ -18,6 +20,7 @@ function Search({ coffees, setFilteredCoffees }) {
     // Dynamically get unique origins from coffees
     const originsList = [...new Set(coffees?.map((c) => c.origin))];
 
+    // Handle input changes
     const handleChange = (e) => {
         const { name, value, type, checked } = e.target;
 

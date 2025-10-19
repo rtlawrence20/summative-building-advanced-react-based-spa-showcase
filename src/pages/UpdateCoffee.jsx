@@ -6,9 +6,19 @@ import CoffeeCard from "../components/CoffeeCard";
 import placeHolderCoffee from "../assets/placeHolderCoffee.jpg";
 import styles from "../styles/UpdateCoffee.module.css";
 
+/**
+ * UpdateCoffee component to add or edit coffee entries
+ * 
+ * @component
+ * @returns {JSX.Element}
+ */
 function UpdateCoffee() {
+
+    // Access coffee data and navigation
     const { id } = useParams();
     const navigate = useNavigate();
+
+    // Context methods and data
     const { coffees, addCoffee, updateCoffee, removeCoffee, loading, error, refetch } =
         useContext(CoffeeContext);
 
@@ -22,6 +32,7 @@ function UpdateCoffee() {
     });
     const [isReady, setIsReady] = useState(false);
 
+    // Populate form data when coffees load or id changes
     useEffect(() => {
         if (!loading) {
             if (isEdit) {
@@ -50,7 +61,7 @@ function UpdateCoffee() {
         }
     }, [id, coffees, loading, isEdit]);
 
-
+    // Handle form submission for add or update
     const handleSubmit = async () => {
         if (isEdit) await updateCoffee(id, formData);
         else await addCoffee(formData);
@@ -59,6 +70,7 @@ function UpdateCoffee() {
         navigate("/admin");
     };
 
+    // Handle coffee deletion
     const handleDelete = async () => {
         if (isEdit && window.confirm("Delete this coffee?")) {
             await removeCoffee(id);

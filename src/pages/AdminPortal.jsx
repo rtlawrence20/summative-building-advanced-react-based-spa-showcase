@@ -4,7 +4,15 @@ import { CoffeeContext } from "../context/CoffeeContext";
 import { useNavigate, Outlet } from "react-router-dom";
 import styles from "../styles/AdminPortal.module.css";
 
+/**
+ * AdminPortal component to manage coffee entries
+ * 
+ * @component
+ * @returns {JSX.Element}
+ */
 function AdminPortal() {
+
+    // Access coffee data and navigation
     const { coffees, loading, error } = useContext(CoffeeContext);
     const navigate = useNavigate();
 

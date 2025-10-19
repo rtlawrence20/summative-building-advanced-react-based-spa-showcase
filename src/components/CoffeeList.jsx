@@ -10,6 +10,7 @@ import styles from "../styles/CoffeeList.module.css";
  * @returns {JSX.Element}
  */
 function CoffeeList({ coffees }) {
+    
     return (
         <div className={styles.coffeeList}>
             {coffees.map((coffee) => (

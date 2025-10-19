@@ -2,7 +2,15 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "../styles/ErrorPage.module.css";
 
+/**
+ * ErrorPage component to display a 404 error message
+ * 
+ * @component
+ * @returns {JSX.Element}
+ */
 function ErrorPage() {
+
+    // Access navigation
     const navigate = useNavigate();
 
     return (

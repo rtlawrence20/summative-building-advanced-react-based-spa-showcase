@@ -4,6 +4,11 @@ import CoffeeContainer from "../components/CoffeeContainer";
 import { CoffeeContext } from "../context/CoffeeContext";
 import styles from "../styles/Shop.module.css";
 
+/**
+ * Shop component to display and search coffee products
+ * @component
+ * @returns {JSX.Element}
+ */
 function Shop() {
     const { coffees } = useContext(CoffeeContext); // full list
     const [filteredCoffees, setFilteredCoffees] = useState(coffees || []);

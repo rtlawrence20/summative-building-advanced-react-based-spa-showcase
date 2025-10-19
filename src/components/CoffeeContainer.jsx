@@ -9,6 +9,8 @@ import CoffeeList from "./CoffeeList";
  * @returns {JSX.Element}
  */
 function CoffeeContainer({ coffees }) {
+
+    // Display message if no coffees are found
     if (!coffees || coffees.length === 0) return <p>No coffees found.</p>;
 
     return <CoffeeList coffees={coffees} />;
