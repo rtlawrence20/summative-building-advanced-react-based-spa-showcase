@@ -1,0 +1,55 @@
+.coffeeForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: var(--color-latte);
+    padding: 20px;
+    border-radius: 12px;
+
+}
+
+.coffeeForm label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: var(--color-dark-coffee);
+}
+
+.coffeeForm input,
+.coffeeForm textarea {
+    padding: 8px 12px;
+    border: 1px solid var(--color-medium-roast);
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.2s, box-shadow 0.2s;
+    width: 100%;
+    background-color: var(--color-white);
+    color: var(--color-dark-text);
+}
+
+.coffeeForm textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.coffeeForm input:focus,
+.coffeeForm textarea:focus {
+    border-color: var(--color-dark-coffee);
+    box-shadow: 0 0 4px rgba(75, 46, 46, 0.3);
+}
+
+.coffeeForm button {
+    padding: 10px 15px;
+    background: var(--color-medium-roast);
+    color: var(--color-white);
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.coffeeForm button:hover {
+    background: var(--color-dark-coffee);
+    border-color: var(--color-latte);
+}
