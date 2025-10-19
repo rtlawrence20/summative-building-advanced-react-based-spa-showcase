@@ -11,7 +11,7 @@ export const CoffeeContext = createContext();
  */
 export const CoffeeProvider = ({ children }) => {
 
-    //
+    // Use custom hook to fetch coffee data
     const {
         data: coffees,
         setData: setCoffees,

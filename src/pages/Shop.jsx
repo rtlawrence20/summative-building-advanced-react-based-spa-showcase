@@ -10,6 +10,8 @@ import styles from "../styles/Shop.module.css";
  * @returns {JSX.Element}
  */
 function Shop() {
+
+    // Access coffee data from context
     const { coffees } = useContext(CoffeeContext); // full list
     const [filteredCoffees, setFilteredCoffees] = useState(coffees || []);
 

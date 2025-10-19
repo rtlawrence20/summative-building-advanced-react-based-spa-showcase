@@ -9,6 +9,7 @@ import styles from "../styles/About.module.css";
  * @returns {JSX.Element}
  */
 function About() {
+    
     return (
         <div className={styles.container}>
             <header className={styles.header}>
