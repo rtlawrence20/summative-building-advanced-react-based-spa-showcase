@@ -23,7 +23,6 @@ Example:
 ![Screenshot 1](src/assets/demo1.PNG)
 ![Screenshot 2](src/assets/demo2.PNG)
 
-
 ---
 
 ## Features
