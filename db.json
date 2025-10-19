@@ -1,0 +1,124 @@
+{
+  "coffees": [
+    {
+      "id": 1,
+      "name": "Colombian Supremo",
+      "desc": "Smooth, balanced, and nutty flavor with medium body.",
+      "origin": "Colombia",
+      "price": 4.50,
+      "img": "/src/assets/placeHolderCoffee.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Ethiopian Yirgacheffe",
+      "desc": "Bright and floral, with hints of citrus and jasmine.",
+      "origin": "Ethiopia",
+      "price": 5.00,
+      "img": "/src/assets/placeHolderCoffee.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Kenya AA",
+      "desc": "Full-bodied with vibrant acidity and berry notes.",
+      "origin": "Kenya",
+      "price": 5.25,
+      "img": "/src/assets/placeHolderCoffee.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Guatemala Antigua",
+      "desc": "Rich and smoky with chocolate undertones.",
+      "origin": "Guatemala",
+      "price": 4.75,
+      "img": "/src/assets/placeHolderCoffee.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Colombian Excelso",
+      "desc": "Mild, smooth taste with a nutty finish.",
+      "origin": "Colombia",
+      "price": 4.25,
+      "img": "/src/assets/placeHolderCoffee.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Ethiopian Sidamo",
+      "desc": "Delicate aroma with floral and citrus notes.",
+      "origin": "Ethiopia",
+      "price": 5.10,
+      "img": "/src/assets/placeHolderCoffee.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Kenya Nyeri",
+      "desc": "Bright acidity, full body, and fruity flavor.",
+      "origin": "Kenya",
+      "price": 5.30,
+      "img": "/src/assets/placeHolderCoffee.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Guatemala Huehuetenango",
+      "desc": "Smooth, medium-bodied with chocolate and nutty notes.",
+      "origin": "Guatemala",
+      "price": 4.90,
+      "img": "/src/assets/placeHolderCoffee.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Colombian Huila",
+      "desc": "Balanced with a hint of caramel sweetness.",
+      "origin": "Colombia",
+      "price": 4.60,
+      "img": "/src/assets/placeHolderCoffee.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Ethiopian Harrar",
+      "desc": "Full-bodied with winey, berry-like flavors.",
+      "origin": "Ethiopia",
+      "price": 5.20,
+      "img": "/src/assets/placeHolderCoffee.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Kenya Thika",
+      "desc": "Bright, lively coffee with fruity undertones.",
+      "origin": "Kenya",
+      "price": 5.15,
+      "img": "/src/assets/placeHolderCoffee.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Guatemala Coban",
+      "desc": "Medium-bodied with chocolate and nutty flavors.",
+      "origin": "Guatemala",
+      "price": 4.85,
+      "img": "/src/assets/placeHolderCoffee.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Colombian Tolima",
+      "desc": "Smooth and bright with a sweet finish.",
+      "origin": "Colombia",
+      "price": 4.55,
+      "img": "/src/assets/placeHolderCoffee.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Ethiopian Guji",
+      "desc": "Floral, fruity, and complex with a sweet aftertaste.",
+      "origin": "Ethiopia",
+      "price": 5.40,
+      "img": "/src/assets/placeHolderCoffee.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Kenya Kirinyaga",
+      "desc": "Juicy, vibrant, with bright acidity and berry notes.",
+      "origin": "Kenya",
+      "price": 5.35,
+      "img": "/src/assets/placeHolderCoffee.jpg"
+    }
+  ]
+}
