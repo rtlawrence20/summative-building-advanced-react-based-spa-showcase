@@ -1,0 +1,46 @@
+.rightColumn {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.previewColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+}
+
+.preview {
+    max-width: 250px;
+}
+
+.deleteBtn {
+    padding: 8px 12px;
+    background: var(--color-mocha);
+    color: var(--color-white);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.deleteBtn:hover {
+    background: var(--color-dark-coffee);
+}
+
+.formColumn {
+    display: flex;
+    justify-content: center;
+    flex: 2;
+}
+
+.formColumn form {
+    width: 100%;
+    max-width: 500px;
+}

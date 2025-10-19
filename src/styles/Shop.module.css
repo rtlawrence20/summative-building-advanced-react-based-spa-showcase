@@ -1,0 +1,14 @@
+.shopContainer {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.searchPanel {
+    flex: 0 0 250px;
+}
+
+.coffeePanel {
+    flex: 1;
+    display: block;
+}
