@@ -9,6 +9,7 @@ import styles from "../styles/CoffeeCard.module.css";
  * @returns {JSX.Element} 
  */
 function CoffeeCard({ coffee }) {
+    
     return (
         <div className={styles.card}>
             <h3>{coffee.name || "Unnamed Coffee"}</h3>

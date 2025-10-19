@@ -2,6 +2,12 @@
 import React from "react";
 import styles from "../styles/About.module.css";
 
+/**
+ * About component to display information about the coffee shop
+ * 
+ * @component 
+ * @returns {JSX.Element}
+ */
 function About() {
     return (
         <div className={styles.container}>

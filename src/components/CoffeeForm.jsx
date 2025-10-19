@@ -11,11 +11,14 @@ import styles from "../styles/CoffeeForm.module.css";
  * @returns {JSX.Element}
  */
 const CoffeeForm = ({ formData, setFormData, onSubmit }) => {
+
+    // Handle input changes
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData((prev) => ({ ...prev, [name]: value }));
     };
 
+    // Handle form submission
     const handleSubmit = (e) => {
         e.preventDefault();
         onSubmit();

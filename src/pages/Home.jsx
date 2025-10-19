@@ -2,7 +2,13 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
 
+/**
+ * Home component to display the landing page
+ * @component
+ * @returns {JSX.Element}
+ */
 function Home() {
+    
     return (
         <div className={styles.container}>
             <header className={styles.header}>
