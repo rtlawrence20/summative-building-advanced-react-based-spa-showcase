@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "../styles/CoffeeForm.module.css";
 
-
 /**
  * CoffeeForm component for adding or updating coffee details
  * 
@@ -24,27 +23,59 @@ const CoffeeForm = ({ formData, setFormData, onSubmit }) => {
 
     return (
         <form className={styles.coffeeForm} onSubmit={handleSubmit}>
-            <label>Name</label>
-            <input name="name" value={formData.name} onChange={handleChange} required />
+            <div>
+                <label htmlFor="name">Name</label>
+                <input
+                    id="name"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    required
+                />
+            </div>
 
-            <label>Description</label>
-            <textarea name="desc" value={formData.desc} onChange={handleChange} />
+            <div>
+                <label htmlFor="desc">Description</label>
+                <textarea
+                    id="desc"
+                    name="desc"
+                    value={formData.desc}
+                    onChange={handleChange}
+                />
+            </div>
 
-            <label>Origin</label>
-            <input name="origin" value={formData.origin} onChange={handleChange} />
+            <div>
+                <label htmlFor="origin">Origin</label>
+                <input
+                    id="origin"
+                    name="origin"
+                    value={formData.origin}
+                    onChange={handleChange}
+                />
+            </div>
 
-            <label>Price ($)</label>
-            <input
-                type="number"
-                name="price"
-                value={formData.price || ""}
-                onChange={handleChange}
-                step="0.01"
-                required
-            />
+            <div>
+                <label htmlFor="price">Price ($)</label>
+                <input
+                    id="price"
+                    type="number"
+                    name="price"
+                    value={formData.price || ""}
+                    onChange={handleChange}
+                    step="0.01"
+                    required
+                />
+            </div>
 
-            <label>Image URL</label>
-            <input name="img" value={formData.img} onChange={handleChange} />
+            <div>
+                <label htmlFor="img">Image URL</label>
+                <input
+                    id="img"
+                    name="img"
+                    value={formData.img}
+                    onChange={handleChange}
+                />
+            </div>
 
             <button type="submit">{formData.name ? "Update" : "Add"} Coffee</button>
         </form>
