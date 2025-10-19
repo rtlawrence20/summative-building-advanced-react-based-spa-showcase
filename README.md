@@ -20,8 +20,9 @@ A React single-page application (SPA) for managing and exploring coffees. This p
 ## Demo
 
 Example: 
-![Screenshot 1](assets/demo1.PNG)
-![Screenshot 2](assets/demo2.PNG)
+![Screenshot 1](src/assets/demo1.PNG)
+![Screenshot 2](src/assets/demo2.PNG)
+
 
 ---
 
